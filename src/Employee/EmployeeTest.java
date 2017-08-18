@@ -36,9 +36,10 @@ public class EmployeeTest {
     }
 
     @Test
-    public void shouldReturnSalary_1_100_000When(){
+    public void shouldReturnSalary_1_100_000WhenRaiseSalary_10(){
         Employee testObject=new Employee(12,"Adam","Nawałka",1_000_000);
-        Assert.assertEquals(1_000_000,testObject.getSalary());
+        testObject.raiseSalary(10);
+        Assert.assertEquals(1_100_000,testObject.getSalary());
     }
 
 

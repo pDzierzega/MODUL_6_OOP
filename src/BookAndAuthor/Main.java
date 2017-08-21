@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println(tolkien);
 
-        Book book= new Book("LotR",tolkien,23.99);
+        Book book= new Book("LotR",23.99,tolkien);
         book.setQty(4);
         System.out.println(book);
     }

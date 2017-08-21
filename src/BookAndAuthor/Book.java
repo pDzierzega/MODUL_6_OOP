@@ -1,29 +1,31 @@
 package BookAndAuthor;
 
+import java.util.ArrayList;
+
 public class Book {
     private String name;
-    private Author author;
+    private ArrayList<Author> author=new ArrayList<>();
     private double price;
     private int qty=0;
 
-    public Book(String name, Author author, double price) {
+    public Book(String name, double price, Author... authors) {
         this.name = name;
-        this.author = author;
         this.price = price;
+        for (Author singleAuthor :authors) {
+            this.author.add(singleAuthor);
+        }
     }
 
-    public Book(String name, Author author, double price, int qty) {
-        this.name = name;
-        this.author = author;
-        this.price = price;
-        this.qty = qty;
+    public Book(String name, double price, int qty, Author... authors) {
+        this(name,price,authors);
+        this.qty=qty;
     }
 
     public String getName() {
         return name;
     }
 
-    public Author getAuthor() {
+    public ArrayList<Author> getAuthor() {
         return author;
     }
 

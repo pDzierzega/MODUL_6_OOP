@@ -1,6 +1,5 @@
 package Day2_Inheritance.CircleAndCylinder;
 
-import Day2_Inheritance.CircleAndCylinder.Circle;
 import org.junit.Assert;
 import org.junit.Test;
 

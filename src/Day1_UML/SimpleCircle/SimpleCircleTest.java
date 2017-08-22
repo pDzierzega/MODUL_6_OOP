@@ -1,4 +1,4 @@
-package SimpleCircle;
+package Day1_UML.SimpleCircle;
 
 import org.junit.Assert;
 import org.junit.Test;

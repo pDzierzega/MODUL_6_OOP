@@ -1,4 +1,4 @@
-package Employee;
+package Day1_UML.Employee;
 
 public class Employee {
     private int id;

@@ -1,11 +1,9 @@
-package MyPointAndMyCircle;
+package Day1_UML.MyPointAndMyCircle;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by RENT on 2017-08-21.
- */
+
 public class MyPointTest {
 
     @Test

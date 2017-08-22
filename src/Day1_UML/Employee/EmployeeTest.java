@@ -1,4 +1,4 @@
-package Employee;
+package Day1_UML.Employee;
 
 import org.junit.Assert;
 import org.junit.Test;

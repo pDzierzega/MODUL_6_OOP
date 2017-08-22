@@ -1,4 +1,4 @@
-package BookAndAuthor;
+package Day1_UML.BookAndAuthor;
 
 import org.junit.Assert;
 import org.junit.Test;

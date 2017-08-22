@@ -1,4 +1,4 @@
-package MyPointAndMyCircle;
+package Day1_UML.MyPointAndMyCircle;
 
 public class MyCircle {
     private MyPoint center=new MyPoint(0,0);

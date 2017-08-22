@@ -1,8 +1,5 @@
-package Rectangle;
+package Day1_UML.Rectangle;
 
-/**
- * Created by RENT on 2017-08-18.
- */
 public class Rectangle {
     private float length =1.0f;
     private float width=1.0f;

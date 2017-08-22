@@ -1,4 +1,4 @@
-package BookAndAuthor;
+package Day1_UML.BookAndAuthor;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package BookAndAuthor;
+package Day1_UML.BookAndAuthor;
 
 import java.util.ArrayList;
 

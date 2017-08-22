@@ -1,8 +1,5 @@
-package SimpleCircle;
+package Day1_UML.SimpleCircle;
 
-/**
- * Created by RENT on 2017-08-18.
- */
 public class SimpleCircle {
     private double radius=1.0;
 

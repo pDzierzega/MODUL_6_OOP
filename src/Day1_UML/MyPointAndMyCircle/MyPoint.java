@@ -1,4 +1,4 @@
-package MyPointAndMyCircle;
+package Day1_UML.MyPointAndMyCircle;
 
 public class MyPoint {
     private int x=0;

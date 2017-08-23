@@ -1,7 +1,5 @@
 package Day2_Inheritance.Figure;
 
-import Day2_Inheritance.CircleAndCylinder.*;
-import Day2_Inheritance.CircleAndCylinder.Circle;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -45,8 +43,7 @@ public class FigureTest {
     @Test
     public void testCircleConstructor_allMethods(){
 
-        // klasy nazywaja sie tak samo ;/
-        Day2_Inheritance.Figure.Circle testObject=new Day2_Inheritance.Figure.Circle();
+
 
     }
 }

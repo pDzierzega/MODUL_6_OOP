@@ -37,6 +37,6 @@ public class Squere extends Rectangle {
 
     @Override
     public String toString() {
-        return String.format("A square with side=%.2d, which is a subclass of %s", super.toString());
+        return String.format("A square with side=%.2f, which is a subclass of %s",getSide(), super.toString());
     }
 }

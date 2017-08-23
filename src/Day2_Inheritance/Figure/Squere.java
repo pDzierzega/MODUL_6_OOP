@@ -1,9 +1,11 @@
 package Day2_Inheritance.Figure;
 
-/**
- * Created by RENT on 2017-08-22.
- */
 public class Squere extends Rectangle {
+
+    public void jestemKwadratem(){
+        System.out.println("JESTEM KWADRATEM");
+    }
+
     public Squere() {}
 
     public Squere(double side) {

@@ -1,4 +1,4 @@
-package Day3_Polimofrizm;
+package Day3_Polimofrizm.Interface;
 
 public class Samochód implements ICzterokolowy {
     @Override

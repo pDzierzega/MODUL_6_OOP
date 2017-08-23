@@ -1,4 +1,4 @@
-package Day3_Polimofrizm;
+package Day3_Polimofrizm.Interface;
 
 public class Rower implements IDwukolowy {
     @Override

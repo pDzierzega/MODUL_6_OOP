@@ -1,4 +1,4 @@
-package Day3_Polimofrizm;
+package Day3_Polimofrizm.Interface;
 
 public class Motocykl implements IDwukolowy{
     @Override
@@ -14,5 +14,9 @@ public class Motocykl implements IDwukolowy{
     @Override
     public void przewrocSie() {
         System.out.println("Kask sie przydał. wywrociłem sie z motocyklem");
+    }
+
+    public void dodajGazu(){
+        System.out.println("Przyspieszam, pyk pyk pyk");
     }
 }

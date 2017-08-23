@@ -1,4 +1,4 @@
-package Day3_Polimofrizm;
+package Day3_Polimofrizm.Interface;
 
 public interface ICzterokolowy extends IPojazd {
     int ILOSC_KOL=4;

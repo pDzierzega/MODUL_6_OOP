@@ -1,4 +1,4 @@
-package Day4_Enum;
+package Day4_Enum.RockPaperScissorGame;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ public class GameRPS {
     private int failure;
     private int draws;
 
-    private RockPaperScissor player;
-    private RockPaperScissor CPU;
+    private RockPaperScissor player=RockPaperScissor.PAPER;
+    private RockPaperScissor CPU=RockPaperScissor.PAPER;
     private int result;
 
     public void playGame(){
@@ -29,8 +29,8 @@ public class GameRPS {
 
     private void simpleGame(char c){
         try {
-            player=RockPaperScissor.getByChar(c);
-            CPU=RockPaperScissor.getRandomEnum();
+            player=player.getByChar(c);
+            CPU=CPU.getRandomEnum();
             result=whatResult(player,CPU);
 
             if (result==0) {

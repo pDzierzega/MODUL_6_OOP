@@ -6,6 +6,7 @@ public abstract class Emeryt implements ISzarlotka{
     public abstract void krzyczNaDzieci();
     public abstract void walczOMiejsceWAutobusie();
 
+
     private void biegnijDoSklepu(int odleglosc, int predkosc){
         double czas=(double) odleglosc/predkosc;
         System.out.println("Biegne po kielbase, bede za"+czas);

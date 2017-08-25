@@ -34,7 +34,7 @@ public class Circle3 extends Shape {
 
     @Override
     public String toString() {
-        return String.format("A circle wit radius=%.2f ,witch is a subclass of %s",
+        return String.format("A circle wit radius=%.2f ,witch is MyTime subclass of %s",
                             radius,super.toString());
 
     }

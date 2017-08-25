@@ -48,7 +48,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return String.format("A Rectangle with width %.2f and length %.2f, which is a subclass of %s",
+        return String.format("A Rectangle with width %.2f and length %.2f, which is MyTime subclass of %s",
                 width,length,super.toString());
     }
 }

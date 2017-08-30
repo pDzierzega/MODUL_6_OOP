@@ -30,10 +30,7 @@ public class WarunkiBierzace_v2 implements I_Wyswietl,Observer{
     public void update(Observable o, Object arg) {
         if (o instanceof DanePogodowe_v2){
             DanePogodowe_v2 danePogodowe=(DanePogodowe_v2) o;
-            this.tempertatura=danePogodowe.getTempertatura();
-            this.cisnienie=danePogodowe.getCisnienie();
-            this.wilgotnosc=danePogodowe.getWilgotnosc();
-            wyswietl();
+            update(danePogodowe,arg);
         }
     }
 }

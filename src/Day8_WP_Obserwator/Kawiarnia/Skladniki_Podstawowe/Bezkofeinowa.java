@@ -11,6 +11,6 @@ public class Bezkofeinowa extends Napoj {
 
     @Override
     public double koszt() {
-        return 1.00;
+        return cena;
     }
 }

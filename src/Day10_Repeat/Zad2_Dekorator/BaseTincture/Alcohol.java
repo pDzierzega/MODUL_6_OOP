@@ -3,11 +3,10 @@ package Day10_Repeat.Zad2_Dekorator.BaseTincture;
 import Day10_Repeat.Zad2_Dekorator.AbstractTincture;
 
 public class Alcohol extends AbstractTincture {
-    private final double alcoholConcetration=0.90;
+    private static final double alcoholConcentration =0.90;  // MUST BE STATIC
 
-    public Alcohol(double quanity) {
-        super(quanity);
-        super.alcoholConcetration=this.alcoholConcetration;
+    public Alcohol(double quantity) {
+        super(quantity, alcoholConcentration);
     }
 
 }

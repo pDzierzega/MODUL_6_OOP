@@ -26,7 +26,7 @@ public class MYQueue {
         while (!queue.isEmpty()){
             System.out.println(queue.remove());
         }
-        
+
     }
 
 }

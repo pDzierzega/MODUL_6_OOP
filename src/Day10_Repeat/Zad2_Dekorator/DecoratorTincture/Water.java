@@ -6,7 +6,7 @@ public class Water extends AbstractTinctureDecorator{
     private double alcoholConcetration=0.00;
 
     public Water(double quanity) {
-        super(quanity);
+        super(quanity,0);
         this.quanity=quanity;
     }
 }

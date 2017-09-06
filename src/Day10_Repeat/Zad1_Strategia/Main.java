@@ -8,7 +8,9 @@ public class Main {
         Horse bonifacy=new Horse(eveen);
         bonifacy.printNumbers(10);
 
+
         bonifacy.setEvenOdd(odd);
         bonifacy.printNumbers(10);
+
     }
 }

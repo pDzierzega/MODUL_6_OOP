@@ -1,4 +1,4 @@
-package Da11_Thread.Synchro;
+package Day11_Thread.Synchro;
 
 public class MyJoin {
     private int counter;

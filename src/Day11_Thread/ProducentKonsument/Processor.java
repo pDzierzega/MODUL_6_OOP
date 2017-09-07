@@ -1,4 +1,4 @@
-package Da11_Thread.ProducentKonsument;
+package Day11_Thread.ProducentKonsument;
 
 import java.util.Scanner;
 

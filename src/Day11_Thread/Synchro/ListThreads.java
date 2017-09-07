@@ -1,4 +1,4 @@
-package Da11_Thread.Synchro;
+package Day11_Thread.Synchro;
 
 import java.util.ArrayList;
 import java.util.Random;

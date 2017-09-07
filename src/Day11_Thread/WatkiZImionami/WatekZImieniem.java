@@ -1,4 +1,4 @@
-package Da11_Thread.WatkiZImionami;
+package Day11_Thread.WatkiZImionami;
 
 public class WatekZImieniem implements Runnable {
     private String imie;

@@ -1,4 +1,4 @@
-package Da11_Thread.WatkiZImionami;
+package Day11_Thread.WatkiZImionami;
 
 
 public class Main {

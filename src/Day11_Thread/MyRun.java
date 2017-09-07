@@ -1,4 +1,4 @@
-package Da11_Thread;
+package Day11_Thread;
 
 public class MyRun implements Runnable{
 
